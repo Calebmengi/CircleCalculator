@@ -1,0 +1,120 @@
+body{
+    font-family: "Nunito";
+    background-color: rgb(197, 129, 2);
+}
+
+.machine{
+    border: 3px solid black;
+    padding: 15px;
+    width: 490px;
+    height: 320px;
+    background-color: #fff;
+    margin: 100px auto 0;
+}
+
+#input-omtrek{
+    margin: 10px;
+}
+
+.omtrek{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: 50px;
+    left: 35px;
+}
+
+.oppervlakte{
+    position: relative;
+    left: 33px;
+    top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+hr{
+    height: 2px;
+    background-color: black;
+    margin: 25px;
+}
+
+select{
+  height: 30px;
+  outline: none;
+  font-family: "Nunito";
+  font-weight: 700;
+  border: 2px solid black;
+  padding-right: 5px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.dropdown{
+    align-items: center;
+    justify-content: center;
+    display: flex;    
+}
+
+option{
+    font-family: "Nunito";
+}
+
+button{
+    font-family: "Nunito";
+    background: linear-gradient(-200deg, orange, rgb(237, 154, 0));
+    height: 40px;
+    border-radius: 9px;
+    border: none;
+    box-shadow: 0px 0px 5px;
+    font-weight: 700;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
+h1{
+    text-align: center;
+}
+
+input{
+    width: 200px;
+    height: 33px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-right: 10px;
+    font-family: "Nunito";
+    font-size: 1em;
+    text-indent: 5px;
+}
+
+
+label{
+    margin: 10px;
+    font-weight: 700;
+}
+
+#omtrek-result{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-weight: 700;
+}
+
+#oppervlakte-result{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-weight: 700;
+}
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculate circle</title>
+</head>
+<body>
+    <div class="machine">
+      <h1>CircleCalculator</h1>
+      
+      <div class="dropdown">
+      <select name="formule" id="formule">
+        <option value="omtrek" id="#">Omtrek</option>
+        <option value="oppervlakte" id="#">Oppervlakte</option>
+      </select>
+    </div>
+
+      <div class="container">
+
+        <div class="omtrek">
+        <label for="input-omtrek">Omtrek:</label>
+        <input type="text" id="input-omtrek" placeholder="Vul in..."> 
+        <button id="omtrek-submit">Berekenen</button>
+    </div>
+
+       <div class="oppervlakte">
+        <label for="input-oppervlakte">Oppervlakte:</label>
+        <input type="text" id="input-oppervlakte" placeholder="Vul in...">
+        <button id="oppervlakte-submit">Berekenen</button>
+    </div>
+
+    <p id="omtrek-result"></p>
+    <p id="oppervlakte-result"></p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
