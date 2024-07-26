@@ -113,6 +113,31 @@ label{
     font-weight: 700;
 }
 
+@media only screen and (max-width: 600px) {
+    .machine{
+        width: 300px;
+        height: 350px;
+    }
+    #omtrek-submit{
+        position: relative;
+        left: 10px;
+    }
+    #oppervlakte-submit{
+        margin: 10px;
+        position: relative;
+        right: 10px;
+    }
+    #lol{
+       position: relative;
+       bottom: 10px;
+       right: 10px;
+    }
+    #omtrek-result, #oppervlakte-result{
+        position: relative;
+        top: 60px;
+    }
+}
+
 
 
 
